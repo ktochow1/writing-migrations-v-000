@@ -6,5 +6,5 @@ class ChangeDatatypeForBirthday < ActiveRecord::Migration
   
 end
 
-change_column(table_name, column_name, type, options = {}) public
-change_column(:accounts, :description, :text)
+# change_column(table_name, column_name, type, options = {}) public
+# change_column(:accounts, :description, :text)
